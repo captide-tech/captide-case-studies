@@ -5,11 +5,17 @@ This repository contains Jupyter notebooks showing how to use the Captide API fo
 ## Setup
 
 1. Clone the repo:
-   ```bash
+   ```
+   bash
    git clone https://github.com/your-org/captide-api-examples.git
    cd captide-api-examples
+   ```
 2. Install requirements:
+   ```
    pip install -r requirements.txt
+   ```
 
-3. Launch Jupyter:
+4. Launch Jupyter:
+   ```
    jupyter notebook
+   ```
