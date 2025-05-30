@@ -2,7 +2,7 @@
 
 Welcome to the **Captide API Examples** repository! This collection of Jupyter notebooks demonstrates practical applications of the Captide API, focusing on the processing of unstructured financial information from global financial reports.
 
-## Overview
+## ℹ️ Overview
 
 [Captide](www.captide.co) is redefining how financial institutions build AI capabilities with a full-stack platform that integrates LLM-ready financial reports and advanced agentic AI systems for deep analytical reasoning. At its core is a curated library of financial disclosures from over 14,000 public companies, preprocessed and structured for optimal use with large language models. On top of this, Captide has built domain-specific AI agents that read, interpret, and reason over this data—augmenting a wide range of high-value tasks, from investment research to equity modeling.
 
@@ -15,7 +15,7 @@ Here are five major use cases where Captide’s API can add value:
 
 These notebooks serve as educational resources for developers, data analysts, and financial professionals interested in leveraging the Captide API for various use cases.
 
-## Repository Structure
+## 🧬 Repository Structure
 
 ```
 captide-api-examples/
