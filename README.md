@@ -16,15 +16,18 @@ Here are five major use cases where Captide’s API can add value:
 These notebooks serve as educational resources for developers, data analysts, and financial professionals interested in leveraging the Captide API for various use cases.
 
 ## Repository Structure
+
+```
 captide-api-examples/
 ├── notebooks/
-│ ├── net_income_to_adjusted_ebitda.ipynb
-│ ├── multi_company_comparison.ipynb
-│ └── api_usage_basics.ipynb
+│   ├── net_income_to_adjusted_ebitda.ipynb
+│   ├── multi_company_comparison.ipynb
+│   └── api_usage_basics.ipynb
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 
 - `notebooks/`: Contains Jupyter notebooks with different case studies.
