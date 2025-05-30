@@ -7,11 +7,11 @@ Welcome to the **Captide API Examples** repository! This collection of Jupyter n
 [Captide](www.captide.co) is redefining how financial institutions build AI capabilities with a full-stack platform that integrates LLM-ready financial reports and advanced agentic AI systems for deep analytical reasoning. At its core is a curated library of financial disclosures from over 14,000 public companies, preprocessed and structured for optimal use with large language models. On top of this, Captide has built domain-specific AI agents that read, interpret, and reason over this data—augmenting a wide range of high-value tasks, from investment research to equity modeling.
 
 Here are five major use cases where Captide’s API can add value:
-- **Building Custom Investment Tools:** Developers can integrate Captide into internal research tools, stock analysis dashboards, or client-facing applications. The API enables real-time querying of financial documents, allowing users to access AI-generated insights or custom features on-demand.
-- **Creating Dynamic Equity Research Models:** Traditional equity models often require manual data entry and analysis. Captide automates this by extracting both structured data (like financial metrics) and unstructured insights (such as management commentary) from disclosures. This automation allows for the creation of dynamic models that update with new filings and provide contextual understanding behind the numbers.‍‍
-- **Automating Fundamental Analysis:** Instead of manually sifting through lengthy filings, Captide parses raw documents and returns clean data or summaries. This capability enables automatic generation of financial reports, database updates with key fundamentals, and alerts when specific metrics change—all through code.
-- **Data Mining:** Captide unlocks the ability to mine financial documents at scale. You can set up automations to extract everything from financial metrics, disclosure notes, commentary, and custom analytics, turning unstructured documents into a research-ready data layer.
-- **Tracking Corporate Events in Real Time:** Captide makes it easy to monitor key corporate events (such as executive turnover, guidance changes, M&A activity, or litigation disclosures) as they unfold—without manually watching press releases or combing through filings. By tracking changes in query responses across documents in real-time, you can set up automated alerting that triggers event-driven strategies or internal research efforts.
+- **Custom Investment Tools**: Integrate real-time querying of financial documents and AI-generated insights into research platforms, dashboards, or client-facing apps.
+- **Dynamic Equity Research Models**: Automate model updates by extracting both structured data and unstructured commentary from filings, providing deeper context behind the numbers.
+- **Automated Fundamental Analysis**: Convert raw filings into clean data or summaries to auto-generate reports, update key fundamentals, and trigger metric-based alerts.
+- **Data Mining at Scale**: Extract financial metrics, disclosures, commentary, and custom analytics from unstructured documents to build a research-ready data layer.
+- **Real-Time Event Tracking**: Monitor changes in filings—like executive shifts, M&A activity, or guidance updates—and set automated alerts to drive event-based strategies.
 
 These notebooks serve as educational resources for developers, data analysts, and financial professionals interested in leveraging the Captide API for various use cases.
 
@@ -28,7 +28,6 @@ captide-api-examples/
 ├── requirements.txt
 └── README.md
 ```
-
 
 - `notebooks/`: Contains Jupyter notebooks with different case studies.
 - `.env.example`: Template for environment variables, including the API key.
