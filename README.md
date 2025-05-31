@@ -15,6 +15,76 @@ Essentially, Captide enables organisations to deploy multi-agent architectures, 
 
 These notebooks serve as educational resources for developers, data analysts, and financial professionals interested in leveraging the Captide API for various use cases.
 
+## 🏁 Getting Started with the API
+
+To access the API, please contact our sales team by filling out [form](https://www.captide.co/company/api-request) or by sending an email to [sales@captide.co](mailto:sales@captide.co). Once you get access to an API key. Once you receive your API key, you can explore detailed information about available endpoints in our [documentation](https://docs.captide.co).
+
+Below is a quick guide to using the most popular endpoints:
+
+### 1. Agentic RAG with citations
+
+Calls Captide's AI agents and returns cited answers sourced exclusively from content within SEC filings and earnings calls.
+
+```
+headers = {
+    "X-API-Key": API_KEY,
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+}
+
+payload = json.dumps({
+    "query": "Summarize Snapchat's convertible debt balance"
+})
+
+response = requests.post(
+    "https://rest-api.captide.co/api/v1/rag/agent-query-stream",
+    headers=headers,
+    data=payload
+)
+```
+
+The response are SSE that contain:
+1. `full_answer`: Synthesized response.
+
+2. `markdown_chunks`: Segmented answer for streaming.
+
+3. `id_mapping`: Links each part of the answer to its source.
+
+4. `done`: Indicates completion of the response generation.
+
+
+### 2. Agentic chunk retrieval
+
+Retrieves highly relevant document excerpts from corporate filings and earnings calls based on your queries.
+
+```
+headers = {
+    "X-API-Key": API_KEY,
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+}
+
+payload = json.dumps({
+    "query": "What are the key risks mentioned in the latest 10-K of Apple?"
+})
+
+response = requests.post(
+    "https://rest-api.captide.co/api/v1/rag/chunks",
+    headers=headers,
+    data=payload
+)
+```
+
+The response includes:
+1. `text`: Plain-text excerpt.
+
+2. `text_with_ids`: Markdown with inline formatting and annotations.
+
+3. `metadata`: Filing type, date, ticker symbol, etc.
+
+4. `source_link`: Direct link to the full source document.
+
+
 ## 🧬 Repository Structure
 
 ```
