@@ -43,7 +43,7 @@ response = requests.post(
 )
 ```
 
-The response are SSE that contain:
+The responses are sent as Server-Sent Events (SSE) and include:
 1. `full_answer`: Synthesized response.
 
 2. `markdown_chunks`: Segmented answer for streaming.
