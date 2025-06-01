@@ -17,7 +17,6 @@ These notebooks serve as educational resources for developers, data analysts, an
 
 ## 🏁 Getting Started with the API
 
-
 To access the API, please contact our sales team by filling out [form](https://www.captide.co/company/api-request) or by sending an email to [sales@captide.co](mailto:sales@captide.co). Once you get access to an API key. Once you receive your API key, you can explore detailed information about available endpoints in our [documentation](https://docs.captide.co).
 
 Below is a quick guide to using the most popular endpoints:
